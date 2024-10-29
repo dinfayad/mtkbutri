@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+
+
+#calculatorForm, #output {
+    background-color: black;
+    padding: 30px; /* Padding sama untuk form dan output */
+    border-radius: 70px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Memastikan form dan output menggunakan lebar penuh kolom */
+    max-width: 600px; /* Lebar maksimum form dan output */
+    margin: 10px 0; /* Jarak antara form dan output lebih kecil */
+}
+
+h3 {
+    margin-bottom: 20px; /* Jarak antara judul dan isi output */
+}
+
+.output-item {
+    font-size: 1.25rem; /* Ukuran font lebih besar untuk output */
+    margin-bottom: 15px; /* Jarak antar elemen output */
+    color: #f1f1f1; /* Warna teks output */
+}
+
+.row {
+    margin: 0;
+}
+
+.col-md-6 {
+    display: flex;
+    justify-content: center;
+    color: #f1f1f1;
+}
+
+.col-md-6 form {
+    width: 100%; /* Memastikan form menggunakan lebar penuh kolom */
+    max-width: 600px; /* Mengatur lebar maksimum agar tidak terlalu besar */
+}
+footer {
+    background-color: #f1f1f1; /* Warna latar belakang footer */
+    padding: 15px; /* Padding atas dan bawah */
+    position: relative; /* Menjadikan footer tetap pada halaman */
+}
